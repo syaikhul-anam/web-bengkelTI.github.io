@@ -1,0 +1,299 @@
+
+/* NAVBAR */
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    margin-bottom: 5%;
+}
+.login{
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+}
+.im{
+    height: 60px;
+    width: 150px;
+}
+.navbar{
+    padding: 0 !important;
+    background-color: #ffffff;
+}
+.navbar-brand{
+    font-family: Viga;
+    font-size: 32px;
+}
+.nav-bar a{
+    padding: 0 10px;
+}
+.nav-item{
+    color: black !important;
+    font-weight: 600;
+    text-align: left;
+}
+.fas{
+    color: black !important;
+    font-size: 30px;
+}
+.navbar-toggler{
+    outline: none;
+}
+/* BANNER */
+#banner{ 
+    font-family: montserrat;
+}
+.top-tittle{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.promo-tittle{
+    font-size: 46px;
+    font-weight: 600;
+}
+
+
+/* ABOUT */
+#about{
+    font-family: 'Noto Sans', sans-serif;
+    margin-top: 80px;
+    padding-top: 100px;
+    background: linear-gradient(rgb(168, 75, 221), rgb(145, 147, 247),white)
+}
+.tag-about{
+    text-transform: uppercase;
+    text-align: center;
+   
+}
+#text-about{
+    text-align: justify;
+}
+
+/* TEAM */
+#team{
+    padding-top: 40px ;
+}
+.team-tag{
+    text-align: center;
+}
+.team-img{
+    margin-top: 30px;
+    width: 140px;  
+}
+.container-2 {
+    text-align: center;
+}
+h6{
+    margin-top: 10px;
+}
+p{
+    margin-top: -8px;
+}
+.bottom-img{
+    width: 100%;
+    margin-bottom:-10px;
+}
+/* SERVICE */
+#service{
+    font-family: 'Noto Sans', sans-serif;
+    background: url(asset-img/icon/wife2.jpg);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-size: cover;
+}
+
+.card1{
+    background-color: #728CF1;
+   
+}
+.card2{
+    background-color: #619EF1;
+}
+.card3{
+    background-color: #63C5ED;
+}
+.crd{
+    margin-top: 20px;
+    width: 50%;
+    height: 50%;
+}
+.card-title{
+    text-align: center;
+}
+.card-text{
+    text-align: justify;
+}
+.data{
+    background-color: rgb(226, 226, 226);
+    
+}
+.pad{
+    padding: 30px;
+}
+.tag-service{
+    text-align: center;
+}
+#find{
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 0;
+    color: rgb(49, 183, 236);
+
+}
+.konsultasi{
+    font-size:14px;
+    font-style: italic;
+    color: red;
+   }
+
+/* SHOP */
+.tx{
+    text-align: center;
+}
+#shop{
+    font-family: 'Noto Sans', sans-serif;
+    background: url(asset-img/icon/bg3.jpg);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-size: cover;
+}
+.media img{
+    max-width: 120px;
+    height: auto;
+}
+.underline-green{
+    width: 70px;
+    height: 3px;
+    background-color:lawngreen ;
+}
+.underline-blue{
+    width: 70px;
+    height: 3px;
+    background-color:rgb(37, 206, 236) ;
+}
+.underline-purple{
+    width: 100px;
+    height: 3px;
+    background-color:rgb(156, 9, 156) ;
+    
+}
+ 
+
+/* Contact */
+
+.tag-contact{
+    color: white;
+}
+
+.unida{
+    height: 80px;
+    width: 50px;
+}
+.ti{
+    margin-top: 12px;
+    width: 50px;
+    height: 50px;
+}
+.hmp{
+    margin-top: 12px;
+    width: 70px;
+   
+}
+.border-right{
+    border-right: 2px solid white;
+    height: 70px;
+}
+.mrtop{
+    margin-top: 70px;
+    
+}
+.logo{
+    height: 40px;
+    width: 40px;
+}
+
+
+/*------Utility-------- */
+.tbl{
+    text-transform: uppercase;
+    background-color: rgb(255, 148, 8);
+    font-size: 12px;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 18px;
+}
+.tbl1{
+    text-transform: uppercase;
+    background-color: rgb(255, 148, 8);
+    font-size: 12px;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 18px;
+}
+.non{
+    text-decoration: none;
+    color: white;
+}
+.non :hover{
+    text-decoration: none;
+    color: grey;}
+.tbl1 :hover{
+    color: gray;
+    text-decoration: none;
+}
+.tombol2{
+    text-transform: uppercase;
+    background-image: linear-gradient(to right,#F0883F,#FDDB71);
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+.tombol2 :hover{
+    text-decoration: none;
+    color: gray;
+}
+.underline-orange{
+    width: 100px;
+    height: 4px;
+    margin: auto;
+    margin-bottom: 40px;
+    background-color:orange ;
+}
+/* -------PHONE VERSION------- */
+@media (min-width: 576px) { 
+    
+ }
+
+/*------ DEKSTOP VERSION--------- */
+
+@media (min-width: 992px) {
+    .nav-link{
+        text-transform: uppercase;
+        margin-right: 20px;
+    }
+    
+    .nav-link:hover::after{
+        content: '';
+        display: block;
+        border-bottom: 3px solid #728FF1;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+
+    .top-tittle{
+        margin-top: 60px;
+    }
+    .bottom-tittle{
+        margin-top: -18px;
+    }
+    .promo-tittle{
+        margin-top: -12px;
+    }
+    
+    .ban-img{
+     margin-top: -60px;
+     margin-right: -20%;
+     width: 100%;
+    }
+}
